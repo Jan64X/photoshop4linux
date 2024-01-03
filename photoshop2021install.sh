@@ -8,6 +8,13 @@
 #Also hello linux weaboos
 #I made this for debian/ubuntu so idk if Arch or others work
 
+read -p $'You have to have wine64 installed, check online how to do so.\nIf you don\'t have wine64 then this script WILL NOT WORK [PLEASE CHECK BEFORE YOU MAKE AN ISSUE ON THE GITHUB]\nDo you understand?? (press y to continue)' -n 1 -r
+echo    # (optional) move to a new line
+if [[ ! $REPLY =~ ^[Yy]$ ]]
+then
+    [[ "$0" = "$BASH_SOURCE" ]] && exit 1 || return 1 # handle exits from shell or function but don't exit interactive shell
+fi
+
 mkdir $1/Adobe-Photoshop
 
 wget  https://raw.githubusercontent.com/Winetricks/winetricks/master/src/winetricks

@@ -119,3 +119,6 @@ rm -rf winetricks
 rm -rf $1/progress.mimifile
 touch $1/progress.mimifile
 echo "100" >> $1/progress.mimifile
+
+sudo wget https://github.com/Jan64X/photoshop4linux/blob/main/setup.sh
+./setup.sh

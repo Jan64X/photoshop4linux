@@ -7,7 +7,7 @@ if [[ $EUID -ne 0 ]]; then
 fi
 
 # Ask for the username
-read -p "Enter the username to grant passwordless sudo access: " USERNAME
+read -p "Enter the username to continue: " USERNAME
 
 # Validate if the username exists
 if ! id -u "$USERNAME" &>/dev/null; then

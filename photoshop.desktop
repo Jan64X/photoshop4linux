@@ -1,0 +1,11 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Name=Photoshop4Linux
+GenericName=Photoshop
+Exec=sudo /Adobe-Photoshop/drive_c/launcher.sh
+Terminal=false
+Icon=/Adobe-Photoshop/drive_c/Adobe_Photoshop_Express_logo.svg
+Type=Application
+Categories=Application;Multimedia;
+Comment=Photoshop for Linux weaboos
+Keywords=photoshop;

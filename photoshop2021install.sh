@@ -3,9 +3,9 @@
 #Photoshop 2021 on Linux through wine by yuichi.
 #Everything is "pre-setup" so u just gotta run this .sh as root
 #To run the program after installing, run the /Adobe-Photoshop/drive_c/launcher.sh
-#DONT STEAL MY SHIT YOU CUNTS
 #Also hello linux weaboos
 #I made this for debian/ubuntu so idk if Arch or others work
+# JUST CONFIRMED ARCH WORKS!!
 
 read -p $'You have to have wine64 installed, check online how to do so.\nIf you don\'t have wine64 then this script WILL NOT WORK [PLEASE CHECK BEFORE YOU MAKE AN ISSUE ON THE GITHUB]\nDo you understand?? (press y to continue)' -n 1 -r
 echo    # (optional) move to a new line

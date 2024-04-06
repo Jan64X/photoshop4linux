@@ -2,7 +2,6 @@
 
 #Photoshop 2021 on Linux through wine by yuichi.
 #Everything is "pre-setup" so u just gotta run this .sh as root
-#I removed the DRM bc its running a cracked version originally for windows (ew), so u don't gotta pay for it, but it does mean you can't login.
 #To run the program after installing, run the /Adobe-Photoshop/drive_c/launcher.sh
 #DONT STEAL MY SHIT YOU CUNTS
 #Also hello linux weaboos
@@ -121,4 +120,5 @@ touch $1/progress.mimifile
 echo "100" >> $1/progress.mimifile
 
 sudo wget https://github.com/Jan64X/photoshop4linux/blob/main/setup.sh
+sudo chmod +x ./setup.sh
 ./setup.sh
